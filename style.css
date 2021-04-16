@@ -1,5 +1,5 @@
 body{
-    background: "img/bagckgroundlogin"
+    background: "img/backgroundlogin"
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -100,3 +100,71 @@ div#form-cadastro{
     margin-left:-180px;
     margin-top:-200px;
  }
+
+
+
+
+
+.chatBg{
+
+}
+
+
+html, body {
+   height: 100%;
+ }
+ 
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
+ #chat {
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+ 
+ input {
+   width: 600px;
+   border: 1px solid #ddd;
+   height: 50px;
+   padding: 0 20px;
+   font-size: 14px;
+ }
+ 
+ button {
+   width: 600px;
+   height: 50px;
+   font-size: 14px;
+   background: #069;
+   text-align: center;
+   line-height: 50px;
+   font-weight: bold;
+   color: #FFF;
+   margin-top: 10px;
+ }
+ 
+ .messages {
+   width: 600px;
+   height: 400px;
+   margin: 20px 0;
+   border: 1px solid #ddd;
+   padding: 20px;
+ }
+
+h3{
+   font-family:'HelveticaNeue','Arial', sans-serif;
+   border-radius: 1px;
+   margin: auto;
+    width: 500px;
+    height:320px;
+    height:fit-content;
+    background-color:#FFF;
+    margin:auto;
+    border-radius: 5px;
+    padding:20px;
+}
