@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <title>Pianel de Controle</title>
+  </head>
+  <body background="img/backgroundloginfade.jpg">
+    <button
+      class="btn-navgation"
+      type="button"
+      value="Voltar"
+      onClick="history.go(-1)"
+    >
+      <img src="img/back_icon.png" width="75px" alt="" />
+    </button>
+    <br />
+    <br />
+    <nav class="nav_tabs">
+      <ul>
+        <li>
+          <input type="radio" id="tab1" class="rd_tab" name="tabs" checked />
+          <label for="tab1" class="tab_label">Cadastrar Paciente</label>
+          <div class="tab-content">
+            <h2>Cadastrar</h2>
+            <article>
+              <button class="btn-add">
+                <img width="50px" class="" src="img/add_icon.png" alt="" />
+              </button>
+            </article>
+          </div>
+        </li>
+        <li>
+          <input type="radio" name="tabs" class="rd_tab" id="tab2" />
+          <label for="tab2" class="tab_label">Meus Pacientes</label>
+          <div class="tab-content">
+            <h2>Title 2</h2>
+            <article>
+              Sed sit amet mauris vitae lorem pretium congue. Donec pulvinar
+              auctor est, a porta ipsum vulputate ac. Ut sit amet sollicitudin
+              ante. Sed gravida nulla et nibh consequat sagittis. Donec eu justo
+              eu tortor elementum scelerisque. Mauris mollis volutpat tellus, id
+              volutpat massa ultricies vel. Donec mollis arcu leo, ac
+              ullamcorper eros viverra ut. Aliquam cursus justo nec purus
+              condimentum, eu dignissim nunc mattis. Sed fermentum sollicitudin
+              felis mattis malesuada. Quisque tempor tellus a odio euismod, non
+              suscipit justo laoreet. Curabitur vel urna lorem. Pellentesque
+              semper justo leo, in tristique ex porta at. Sed justo massa,
+              lobortis quis hendrerit ac, eleifend vitae tellus.
+            </article>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
